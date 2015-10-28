@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    xmlns:music="http://schemas.android.com/apk/res-auto"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".MenuPageActivity"
+    android:orientation="horizontal">
+
+    <kz.gereski.m.musiceasyteacher.gui.components.NoteKey
+        android:id="@+id/s4mi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        music:note="s4mi"
+        music:noteName="Mi\nA"
+        android:layout_weight="1"/>
+
+    <kz.gereski.m.musiceasyteacher.gui.components.NoteKey
+        android:id="@+id/s4re"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        music:note="s4doh"
+        android:layout_weight="1"/>
+
+    <kz.gereski.m.musiceasyteacher.gui.components.NoteKey
+        android:id="@+id/s4fa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        music:note="s4fa"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
